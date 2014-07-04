@@ -1,0 +1,13 @@
+{
+	"name": "Tags for Trello",
+	"version": "0.1",
+	"description": "Adds tags with # to your Trello",
+	"content_scripts": [
+		{
+			"matches": ["https://trello.com/*"],
+			"js": ["jquery-1.7.1.min.js", "hashtagrtello.js"],
+			"css": ["hashtagrtello.css"]
+		}
+	],
+	"manifest_version" : 2
+}
