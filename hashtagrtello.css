@@ -1,9 +1,9 @@
-.list-card-details .cds-hashtag-list {
+.list-card-details .cds-tag-list {
   display: block;
   margin: 5px 0;
 }
 
-.list-card-details .cds-hashtag {
+.list-card-details .cds-tag {
   padding: 2px 3px;
   font-size: 10px;
   color: white;
@@ -11,7 +11,7 @@
   font-family: Verdana;
 }
 
-.list-card-details .cds-hashtag.green {
+.list-card-details .cds-tag.green {
   background: #81b251;
   border: 1px solid #608C35;
 }
